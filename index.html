@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epassion - Build Your Tech Future</title>
+    <meta name="description" content="Epassion builds websites, mobile apps, IoT solutions, tech courses, and graduation project support.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Epassion logo" class="logo-img">
+                <span class="logo-text">Epassion</span>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="privacy.html" class="nav-link">Privacy</a></li>
+            </ul>
+
+            <button class="hamburger" type="button" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Content Focused -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Transform Your Ideas Into Reality</h1>
+                <p class="hero-subtitle">We build custom web applications, mobile apps, IoT solutions, and help students succeed with their graduation projects. Whether you're starting from scratch or need expert guidance, we're here to help you achieve your tech goals.</p>
+                
+                <div class="hero-cta">
+                    <a href="contact.html" class="cta-link">Get in Touch →</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <span>💻</span>
+                    <div>
+                        <p>Web Apps</p>
+                        <small>React, Vue, Node.js</small>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <span>📱</span>
+                    <div>
+                        <p>Mobile Apps</p>
+                        <small>iOS & Android</small>
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <span>🤖</span>
+                    <div>
+                        <p>Robotics & IoT</p>
+                        <small>Arduino, ESP32</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section - Content Rich -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>What We Do</h2>
+            <p class="section-intro">Complete technical solutions for businesses and students</p>
+
+            <div class="services-grid">
+                <!-- Web Development -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Web Development</h3>
+                        <span class="service-icon">🌐</span>
+                    </div>
+                    <p>We build responsive, fast, and beautiful web applications using modern technologies. From simple marketing websites to complex SaaS platforms, we deliver solutions that users love.</p>
+                    <div class="service-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Vue.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+
+                <!-- Mobile Apps -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Mobile Applications</h3>
+                        <span class="service-icon">📱</span>
+                    </div>
+                    <p>Native iOS and Android apps, or cross-platform solutions that work seamlessly. We build apps that are intuitive, performant, and engage your users while solving real problems.</p>
+                    <div class="service-tech">
+                        <span>Swift</span>
+                        <span>Kotlin</span>
+                        <span>React Native</span>
+                        <span>Flutter</span>
+                    </div>
+                </div>
+
+                <!-- Robotics & IoT -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Robotics & IoT</h3>
+                        <span class="service-icon">🤖</span>
+                    </div>
+                    <p>Build smart systems and connected devices. From Arduino projects to industrial IoT solutions, we help you create hardware that's intelligent and reliable. Perfect for automation and monitoring applications.</p>
+                    <div class="service-tech">
+                        <span>Arduino</span>
+                        <span>ESP32</span>
+                        <span>MQTT</span>
+                        <span>Cloud Integration</span>
+                    </div>
+                </div>
+
+                <!-- Tech Courses -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Tech Courses & Training</h3>
+                        <span class="service-icon">📚</span>
+                    </div>
+                    <p>Learn from experienced developers. We offer comprehensive courses covering web development, mobile app development, and IoT programming. All levels welcome, from beginners to advanced.</p>
+                    <div class="service-tech">
+                        <span>Web Basics</span>
+                        <span>JavaScript</span>
+                        <span>Advanced Topics</span>
+                        <span>Live Projects</span>
+                    </div>
+                </div>
+
+                <!-- Graduation Projects -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Graduation Projects</h3>
+                        <span class="service-icon">🎓</span>
+                    </div>
+                    <p>Expert guidance for your academic capstone. We help you scope, design, and implement projects that impress your professors and give you real portfolio pieces. AI, IoT, web apps, and more.</p>
+                    <div class="service-tech">
+                        <span>Project Planning</span>
+                        <span>Code Review</span>
+                        <span>Documentation</span>
+                        <span>Deployment Help</span>
+                    </div>
+                </div>
+
+                <!-- Consulting -->
+                <div class="service-card">
+                    <div class="service-header">
+                        <h3>Tech Consulting</h3>
+                        <span class="service-icon">💼</span>
+                    </div>
+                    <p>Strategic guidance on technology choices, architecture, and best practices. Whether you need help choosing a tech stack, scaling your application, or improving code quality, we provide expert advice.</p>
+                    <div class="service-tech">
+                        <span>Architecture</span>
+                        <span>Code Quality</span>
+                        <span>Performance</span>
+                        <span>Scalability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>Why Choose Epassion</h2>
+            
+            <div class="about-content">
+                <div class="about-grid">
+                    <div class="about-item">
+                        <h3>8+ Years Experience</h3>
+                        <p>We've been building web and mobile solutions since 2016. From small startups to enterprise clients, we understand what works and what doesn't.</p>
+                    </div>
+
+                    <div class="about-item">
+                        <h3>Expert Team</h3>
+                        <p>Our developers are experienced across multiple languages and frameworks. We stay current with latest technologies and best practices in the industry.</p>
+                    </div>
+
+                    <div class="about-item">
+                        <h3>Quality Code</h3>
+                        <p>We don't just write code that works—we write code that's maintainable, scalable, and performs well. Code reviews and testing are built into our process.</p>
+                    </div>
+
+                    <div class="about-item">
+                        <h3>Student-Friendly</h3>
+                        <p>We love working with students on graduation projects. We help you build something you're proud of while learning industry practices along the way.</p>
+                    </div>
+
+                    <div class="about-item">
+                        <h3>Transparent Process</h3>
+                        <p>Regular updates, clear communication, and honest timelines. We keep you informed every step of the way without any surprises.</p>
+                    </div>
+
+                    <div class="about-item">
+                        <h3>Ongoing Support</h3>
+                        <p>Your project doesn't end at launch. We provide maintenance, support, and help you improve your applications over time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- How We Work Section -->
+    <section class="process">
+        <div class="container">
+            <h2>How We Work</h2>
+            <p class="section-intro">A simple, transparent process</p>
+
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Discovery & Planning</h3>
+                    <p>We understand your goals, challenges, and timeline. We ask the right questions to scope out the project properly.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Design & Architecture</h3>
+                    <p>We design the solution and plan the technical architecture. You see mockups and approve before we write code.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Development</h3>
+                    <p>We build your project with regular check-ins. You see progress weekly and can request changes as we go.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Testing & Launch</h3>
+                    <p>Thorough testing ensures everything works perfectly. We handle deployment and make sure your site is live and optimized.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>Support & Growth</h3>
+                    <p>After launch, we're here to fix bugs, add features, and help your project grow. We can maintain it for you or teach you to do it yourself.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="technologies">
+        <div class="container">
+            <h2>Technologies We Use</h2>
+            <p class="section-intro">Modern tools and frameworks for reliable, scalable solutions</p>
+
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3>Frontend</h3>
+                    <div class="tech-list">
+                        <span>React</span>
+                        <span>Vue.js</span>
+                        <span>Angular</span>
+                        <span>TypeScript</span>
+                        <span>Tailwind CSS</span>
+                        <span>Next.js</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Backend</h3>
+                    <div class="tech-list">
+                        <span>Node.js</span>
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>MongoDB</span>
+                        <span>PostgreSQL</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Mobile</h3>
+                    <div class="tech-list">
+                        <span>React Native</span>
+                        <span>Flutter</span>
+                        <span>Swift</span>
+                        <span>Kotlin</span>
+                        <span>Expo</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Hardware & IoT</h3>
+                    <div class="tech-list">
+                        <span>Arduino</span>
+                        <span>ESP32</span>
+                        <span>Raspberry Pi</span>
+                        <span>MQTT</span>
+                        <span>Sensors</span>
+                        <span>Cloud Integration</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>DevOps & Cloud</h3>
+                    <div class="tech-list">
+                        <span>AWS</span>
+                        <span>Google Cloud</span>
+                        <span>Docker</span>
+                        <span>GitHub</span>
+                        <span>CI/CD</span>
+                        <span>Netlify</span>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Tools & Practices</h3>
+                    <div class="tech-list">
+                        <span>Git</span>
+                        <span>Figma</span>
+                        <span>Testing</span>
+                        <span>Agile</span>
+                        <span>Scrum</span>
+                        <span>Code Review</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Whether you have a clear vision or just an idea, we're ready to help. Reach out and let's discuss what we can build together.</p>
+            <a href="contact.html" class="cta-button">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Epassion</h4>
+                    <p>Building modern websites, apps, IoT systems, and student project solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:teamepassion@gmail.com">teamepassion@gmail.com</a></li>
+                        <li><a href="tel:+9647730770804">+964 773 077 0804</a></li>
+                        <li><a href="https://www.instagram.com/team_epassion?igsh=anY1bmNoYnc0NTRj" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                        <li><a href="https://m.facebook.com/EpassionTeam1/?ref=pages_you_manage" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Epassion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
